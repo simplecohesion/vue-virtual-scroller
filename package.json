@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "prepare": "lerna run build --ignore demo",
+    "prepare": "npm run build"
+    "build": "lerna run build --ignore demo",
     "release": "lerna publish",
     "lint": "eslint --ext .js,.vue packages"
   },
