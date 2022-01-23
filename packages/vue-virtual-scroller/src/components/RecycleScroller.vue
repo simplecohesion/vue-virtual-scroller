@@ -634,7 +634,7 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-  will-change: transform;
+  will-change: unset;
 }
 
 .vue-recycle-scroller.direction-vertical .vue-recycle-scroller__item-wrapper {
