@@ -16,7 +16,6 @@
   "module": "dist/vue-virtual-scroller.esm.js",
   "unpkg": "dist/vue-virtual-scroller.min.js",
   "scripts": {
-    "prepare": "npm run build",
     "build": "npm run build:browser && npm run build:es && npm run build:umd",
     "build:browser": "rollup --config build/rollup.config.browser.js",
     "build:es": "rollup --config build/rollup.config.es.js",
